@@ -5,10 +5,9 @@ const ContactLayout = () => {
     return (
             <div>
             <Contact/>
-            <div className="container">
             <Outlet/>
-        </div>
-        </div>
+
+            </div>
     )
 }
 
